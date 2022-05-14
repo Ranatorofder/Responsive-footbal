@@ -1,0 +1,410 @@
+/*------------------ 
+    Google font
+------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* ----------------
+    Font styels 
+-------------------*/
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.container {
+    background-color: #2D25A0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    position: relative;
+
+
+}
+
+.top-text {
+    width: 50%;
+}
+
+.text {
+    color: #FFFFFF;
+    font-size: 64px;
+}
+
+.battun a {
+    font-size: 16px;
+    padding: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #E02C6D;
+}
+
+.battun a:hover {
+    background-color: #FF0000;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.top-banner {
+    margin-top: 100px;
+    width: 50%;
+}
+
+.top-banner img {
+    width: 556px;
+    height: 438px;
+}
+
+.player-4 {
+    position: absolute;
+    margin-top: 100px;
+    top: 0;
+    right: 0%;
+    margin-right: 340px;
+    opacity: 0;
+    background-color: #2D25A0;
+    transition: 1s ease-in-out;
+}
+
+.player-4:hover {
+    opacity: 1;
+}
+
+/* ---------------------
+  top player styles
+--------------------- */
+.top-player {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 100px;
+    grid-gap: 50px;
+    margin-bottom: 100px;
+}
+
+.player {
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.15);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    border-radius: 10px;
+}
+
+.player img {
+    width: 100%;
+    height: auto;
+
+}
+
+.player p {
+    word-break: break-all;
+}
+
+/* -----------------------
+ clup information styles 
+ --------------------------*/
+
+.club {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.club-text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.club-text h1 {
+    font-size: 50px;
+}
+
+.club-players {
+    padding: 80px;
+    width: 50%;
+
+}
+
+.club-players img {
+    width: 100%;
+    height: auto;
+}
+
+/* -------------------
+ foot-ball-clab styles
+---------------------*/
+
+.foot-ball-clab {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.club-information {
+    background-image: url("../images/mario-klassen-70YxSTWa2Zw-unsplash-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 200px;
+    width: 60%;
+    text-align: center;
+    color: #e74c3c;
+
+}
+
+.club-display {
+    opacity: 0;
+}
+
+.club-information:hover .club-display {
+    display: block;
+    opacity: 1;
+}
+
+/*-----------------
+  top clab styles 
+-------------------*/
+.top-container {
+    background-image: url("../images/305432.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    height: 100vh;
+    margin-bottom: 120px;
+}
+
+.top-clab {
+    color: #FFFFFF;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left-text {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.red {
+    color: #FF0000;
+}
+
+.left-text-inner h1 {
+    font-size: 3.3em;
+    margin: 0;
+    line-height: 1;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.left-text-inner p {
+    margin-top: 0px;
+}
+
+.left-text-inner {
+    padding: 30px;
+    margin-bottom: 30px;
+
+}
+
+.right-thing {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.right-text-wrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 2;
+    margin-left: 270px;
+}
+
+.counter {
+    /* width: 300px; */
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+.counter-inner {
+    display: flex;
+    padding: 30px;
+}
+
+.next-match {
+    padding: 15px;
+    background-color: #2c3e50;
+}
+
+.next-match h2 {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 0.7;
+}
+
+.worldcup {
+    flex-direction: column;
+}
+
+.days {
+    display: flex;
+    text-align: center;
+    background-color: #2c3e50;
+    border-left: black 5px dotted;
+    padding: 20px;
+    /* padding-top: 30px; */
+}
+
+.days h2 {
+    padding-top: 20px;
+    line-height: 0.9;
+    font-size: 2em;
+}
+
+.day h2 {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+}
+
+.day p {
+    margin: 0;
+    padding-right: 12px;
+}
+
+.football-worldcup h3 {
+    font-family: sans-serif;
+    margin-bottom: 0;
+}
+
+.color-gray {
+    color: #808b96;
+}
+
+
+/* ----------------
+    fotter styles
+ --------------- */
+.football {
+    display: flex;
+    justify-content: center;
+
+}
+
+.football-clab {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.football-clab img {
+    width: 50%;
+}
+
+.icon {
+    color: #969BAB;
+    padding-left: 10px;
+}
+
+/* --------------
+    Mediya Quari
+  --------------- */
+
+/* ---------------
+     Mobail devais
+  ------------------- */
+@media only screen and (max-width:688px) {
+    .container {
+        width: 100%;
+        display: block;
+        background-color: red;
+    }
+
+    .top-texts {
+        padding-left: 20px;
+    }
+
+    .text {
+        margin: 0;
+        font-size: 30px;
+    }
+
+    .top-banner {
+        width: 50%;
+    }
+
+    .top-banner img {
+        width: 150%;
+    }
+
+    .top-player {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0;
+    }
+
+    .club {
+        grid-template-columns: repeat(1, 1fr);
+        display: block;
+    }
+
+    .club-text {
+        width: 100%;
+    }
+
+    .club-text h1 {
+        font-size: 30px;
+    }
+
+    .club-players {
+        width: 70%;
+        padding: 10%;
+    }
+
+    .top-container {
+        width: 100%;
+    }
+
+    .top-clab {
+        /* display: none; */
+    }
+
+    .left-text-inner h1 {
+        font-size: 1.5em;
+    }
+
+    .right-thing {
+        display: none;
+    }
+
+    .club-information {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .club-display h1 {
+        font-size: 1em;
+    }
+
+    .battun a {
+        padding: 0;
+    }
+
+    .football-clab {
+        width: 30%;
+    }
+}
