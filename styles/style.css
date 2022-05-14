@@ -357,6 +357,12 @@ body {
         padding: 0;
     }
 
+    .player-4 {
+        margin-right: 0;
+        display: none;
+        width: 150%;
+    }
+
     .club {
         grid-template-columns: repeat(1, 1fr);
         display: block;
